@@ -6,7 +6,9 @@ In this "Hello World" MVP, a **Teacher Agent** asks a complex math question. Thr
 
 ## 📸 Screenshot
 
-![App screenshot](x402-school-demo/src/assets/notenoughfunds.png)
+Error showing: ❌ Error: insufficient funds for intrinsic transaction cost
+
+![App screenshot](https://github.com/jegamboafuentes/x402helloworld/blob/main/x402-school-demo/src/assets/notenoughfunds.png?raw=true)
 
 ## ✨ Features
 * **Autonomous Machine Payments:** Demonstrates the HTTP 402 paywall interception and automated off-chain cryptographic signing.
