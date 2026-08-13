@@ -4,6 +4,10 @@ An interactive, full-stack Web3 application demonstrating the power of the **x40
 
 In this "Hello World" MVP, a **Teacher Agent** asks a complex math question. Three **Bot Students** compute the answer, but lock it behind an HTTP 402 "Payment Required" paywall. The Teacher autonomously signs a real transaction on the Base network to pay the winner and unlock the answer.
 
+## 📸 Screenshot
+
+![App screenshot](x402-school-demo/src/assets/notenoughfunds.png)
+
 ## ✨ Features
 * **Autonomous Machine Payments:** Demonstrates the HTTP 402 paywall interception and automated off-chain cryptographic signing.
 * **Real Web3 Settlement:** Executes live transactions on the Base L2 network using `ethers.js`.
