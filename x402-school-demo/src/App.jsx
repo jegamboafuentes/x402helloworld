@@ -83,10 +83,16 @@ export default function App() {
         }
 
         const wallet = new ethers.Wallet(privateKey, provider);
+        const balance = await provider.getBalance(wallet.address);
+        addLog('Beta', `Wallet: ${wallet.address}`);
+        addLog('Beta', `Balance: ${ethers.formatEther(balance)} ETH`);
+
         const tx = await wallet.sendTransaction({
           to: BOT_RECEIVING_ADDRESS,
           value: ethers.parseEther('0.0001'),
+          chainId: 8453,
           gasLimit: 21000,
+          gasPrice: await provider.getFeeData().then((data) => data.gasPrice),
         });
 
         addLog('Beta', `⏳ Waiting for confirmation... ${tx.hash}`);
