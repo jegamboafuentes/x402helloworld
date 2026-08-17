@@ -6,9 +6,11 @@ This is **V2**: a classroom UI, Test Mode / Real Money, in-browser credential se
 
 Author: [Enrique Gamboa](https://enriquegamboa.info) · GitHub: [jegamboafuentes/x402helloworld](https://github.com/jegamboafuentes/x402helloworld)
 
-## 📸 Screenshot
+## 📸 Screenshots
 
-![App screenshot](x402-school-demo/src/assets/screenshot2.png)
+![App screenshot](x402-school-demo/src/assets/screenshot2.1.png)
+
+![App screenshot](x402-school-demo/src/assets/screenshot2.2.png)
 
 ## ✨ What V2 includes
 
